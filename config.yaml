@@ -1,0 +1,24 @@
+APISCHEMA:
+  APIS:
+    BASE_URL: ""
+    API_ENDPOINT: "/aims/v1/authenticate"
+    GET_INCIDENT_URL: ""
+  Params:
+    start_time: ""
+    end_time: ""
+  AUTHENTICATION:
+    USERNAME: ""
+    PASSWORD: ""
+    AUTH_TYPE: "authentication_via_oauth"
+    TOKEN_AUTH_TYPE: "basicauth"
+  HEADERS:
+    KEY: "X-Aims-Auth-Token"
+  SECRET_CONFIGS:
+    CSM: "None"
+    CYBERARK: "None"
+  DATABASE:
+    DB_TYPE: "sqlite"
+    DB_NAME: "database.sqlite"
+    TABLE_NAME: "Import_NessusDiscovery_ScanResults"
+    COLUMNS: "IPAddress:string,DNSName:string,ScanZone:string"
+    PRIMARY_KEY: "IPAddress"

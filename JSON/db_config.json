@@ -1,0 +1,9 @@
+{
+    "DB_NAME": "database.sqlite",
+    "ENVIRONMENT": "Dev",
+    "USE_SQLITE": "True",
+    "database_type": "sqlite",
+    "sqlite": {
+        "database": "project_database.sqlite"
+    }
+}
