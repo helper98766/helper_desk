@@ -55,7 +55,7 @@ class Processor:
         return orm_class
 
 if __name__ == "__main__":
-    process = Processor("APISCHEMA", PROXY_USERNAME="G018483493", PROXY_PASSWORD="Deep2307799%2324nitk")
+    process = Processor("APISCHEMA", PROXY_USERNAME="", PROXY_PASSWORD="")
     orm_class = process.write_data_to_database()
     ipaddress = reading_output_file("Output/output_2025-01-03T16-10.json")
     data = convert_json_to_dict("JSON/data.json")
